@@ -18,4 +18,15 @@ package IST242Team4;
     public Product[] getAllProducts() {
         return products;
     }
-}
+     public Product getProductById(int id) {
+         for (Product product : products) {
+             if (product.getid() == id) {
+                 return product;
+             }
+         }
+         return null;
+     }
+
+
+
+ }

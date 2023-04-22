@@ -16,13 +16,13 @@ public class DatabaseConnection {
 
         //Perform the CRUD create, read, update, delete records with the database
 
-        readAllSQL();
-        readByIdSQL(1000);
-        Customer cust = new Customer(1,"Dhruvesh", "Patel", "patel.d@gmail.com", "123-456-0568");
-        createSQL(3, cust);
-        updateSQL(3, cust);
-        deleteSQL(3);
-        readAllSQL();
+       // readAllSQL();
+        //readByIdSQL(1000);
+        //Customer cust = new Customer(1,"Dhruvesh", "Patel", "patel.d@gmail.com", "123-456-0568");
+        //createSQL(3, cust);
+        //updateSQL(3, cust);
+        //deleteSQL(3);
+        //readAllSQL();
     }
 
     public static void readAllSQL() {

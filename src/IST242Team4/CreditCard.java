@@ -1,3 +1,5 @@
+
+
 package IST242Team4;
 public class CreditCard {
     //Instance variables
@@ -52,6 +54,8 @@ public class CreditCard {
     }
 
 
+    public void processPayment() {
 
+    }
 }
 
